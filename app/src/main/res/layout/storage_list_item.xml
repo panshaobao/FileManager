@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/image_sd"/>
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/image_sd"
+       android:layout_alignParentEnd="true"
+       android:layout_toEndOf="@+id/image_sd"
+       android:layout_alignParentTop="true"
+       android:background="#ffffff">
+       <TextView
+           android:layout_gravity="top"
+           android:id="@+id/storage_path"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+
+       <ProgressBar
+           android:layout_gravity="center"
+           android:id="@+id/storage_progressbar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           style="@android:style/Widget.ProgressBar.Horizontal"
+           android:layout_alignBottom="@+id/image_sd"
+           android:layout_alignParentEnd="true"
+           android:layout_toEndOf="@+id/image_sd"
+           android:layout_alignParentTop="true" />
+
+       <TextView
+           android:layout_gravity="bottom"
+           android:id="@+id/show_space"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="end"
+           android:textColor="#0033ff"
+           />
+
+   </LinearLayout>
+
+
+</RelativeLayout>

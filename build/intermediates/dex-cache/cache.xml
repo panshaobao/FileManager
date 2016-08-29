@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bao/AndroidStudioProjects/FileManager(2.0.1)修正了一些BUG/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="/home/bao/AndroidStudioProjects/FileManager(2.0.1)修正了一些BUG/app/build/intermediates/pre-dexed/debug/android-support-v4-e1a388e9a7f81a41b123e34762b0ad655c172558.jar" />
+    </item>
+
+</items>

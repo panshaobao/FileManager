@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#99ff99</color>
+    <color name="drawerlayout_color">#ffff99</color>
+    <color name="storage_progress1_color">#ccccff</color>
+    <color name="storage_progress2_color">#339966</color>
+    <color name="recentfile_text_color">#000000</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="drawlayout_text">
+        <item name="android:textColor">#66ff66</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+
+</resources>

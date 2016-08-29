@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/up_path"
+        android:id="@+id/up_path"
+        android:showAsAction="ifRoom"
+        android:title="返回上级路径"/>
+    <item android:title="新建文件夹"
+        android:id="@+id/mkdir"/>
+   <item android:title="网格显示"
+       android:id="@+id/show_as_listview"/>
+    <item android:title="显示隐藏文件"
+        android:id="@+id/hide"/>
+    <item android:title="排序"
+        android:id="@+id/sort"/>
+
+</menu>
